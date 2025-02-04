@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F4F4F9; /* Light Background */
+    color: #333333; /* Dark Gray Text */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+.container {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* Title */
+h1 {
+    color: #6A0572; /* Purple */
+}
+
+/* Converter Box */
+.converter {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(154, 3, 173, 0.2); /* Soft Shadow */
+    width: 90%;
+    width: 450px;
+}
+
+/* Input and Select */
+input, select, button {
+    width: 100%;
+    padding: 10px 3px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #9D0191;
+    background: white;
+    color: #333333;
+}
+
+input:focus, select:focus {
+    border-color: #6A0572; /* Purple Highlight */
+    outline: none;
+}
+
+/* Dropdown */
+select {
+    background-color: white;
+    color: #333333;
+}
+
+/* Button Styling */
+button {
+    background-color: #9D0191; /* Magenta */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+}
+
+button:hover {
+    background-color: #6A0572; /* Darker Purple */
+}
+
+/* Result Display */
+#result {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #F4A261; /* Warm Orange */
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .converter {
+        width: 95%;
+        padding: 15px;
+    }
+    
+    input, select, button {
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 22px;
+    }
+    
+    #result {
+        font-size: 18px;
+    }
+}
